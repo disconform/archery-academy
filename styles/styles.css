@@ -1,12 +1,99 @@
-html, body {
+html, body, {
   margin: 0;
 }
 
 header {
   background-color: #03a3df;
+  padding: 0px;
+  margin: 0px;
+}
+
+img.header {
+  padding-left: 15px;
+}
+
+img.tour {
+width: 250px;
+height: 250px;
+}
+
+nav {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1b447f;
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 20px;
+  text-decoration: none;
+}
+
+nav:hover {
+    background-color: #111;
+}
+aside.left {
+float: left;
+width: 25%;
+padding-left: 5px;
+padding-right: 15px;
+margin-left: 15px;
+}
+
+aside.right {
+float: right;
+width: 15%;
+padding-left: 30px;
+padding-right: 15px;
+margin-left: 30px;
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  padding-left: 15px;
+}
+
+h2{
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  padding-left: 15px;
+}
+
+h3 {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  padding-left: 15px;
+}
+
+p {
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+  font-size: 17px;
+}
+
+a{
+  color: #ecb722;
 
 }
 
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #03a3df;
+  text-decoration: underline;
+}
+
 footer {
-  
+  width: auto;
+  margin: 0 auto;
+  position: relative;
+  clear: both;
 }
