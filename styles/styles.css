@@ -13,8 +13,27 @@ img.header {
 }
 
 img.tour {
-width: 250px;
-height: 250px;
+  transition: transform .2s;
+  width: 250px;
+  height: 250px;
+}
+
+img.tour:hover {
+  transform: scale(1.5);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.gallery {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  text-align: center;
 }
 
 nav {
@@ -43,11 +62,17 @@ margin-left: 15px;
 }
 
 aside.right {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: right;
+align-items: center;
 float: right;
 width: 15%;
 padding-left: 30px;
 padding-right: 15px;
 margin-left: 30px;
+
 }
 
 h1 {
@@ -89,6 +114,17 @@ a:link {
 a:hover {
   color: #03a3df;
   text-decoration: underline;
+}
+
+.movie {
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+  display: block;
+}
+
+.footer-image {
+  width: 100%;
 }
 
 footer {
